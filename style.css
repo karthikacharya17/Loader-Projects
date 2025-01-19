@@ -1,0 +1,28 @@
+.loader{
+    width: 80px;
+    height: 80px;
+    margin-left: 700px;
+    margin-bottom: 500px;
+  
+    border: 20px solid blue;
+    border-top: 20px solid black;
+    border-radius: 50%;
+    animation:spinAnimation  1s ease-in 0s infinite normal;
+}
+@keyframes spinAnimation{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+#name{
+    width: 900px;
+    height: 100px;
+    color:#003049;
+    margin-left: 400px;
+    margin-top: 200px;
+    font-size: 30px;
+}
